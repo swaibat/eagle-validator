@@ -1,0 +1,47 @@
+{
+  "name": "eagle-validator",
+  "version": "1.0.0",
+  "description": "A  modern javascript object validation NPM package available on npmjs.com",
+  "main": "index.js",
+  "nyc": {
+    "require": [
+      "esm"
+    ]
+  },
+  "scripts": {
+    "test": "nyc mocha  --timeout 200000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swaibat/eagle-validator.git"
+  },
+  "keywords": [
+    "js-validator",
+    "javascript",
+    "validator",
+    "joi",
+    "@hapi",
+    "eagle-validator"
+  ],
+  "author": "Rumbiiha swaibu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swaibat/eagle-validator/issues"
+  },
+  "homepage": "https://github.com/swaibat/eagle-validator#readme",
+  "dependencies": {
+    "chai": "4.2.0",
+    "chai-http": "4.3.0",
+    "coveralls": "3.0.6",
+    "esm": "3.2.25",
+    "express": "4.17.1",
+    "mocha": "6.2.0",
+    "nodemon": "1.19.2",
+    "nyc": "14.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
