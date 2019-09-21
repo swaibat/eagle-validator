@@ -9,7 +9,8 @@
     ]
   },
   "scripts": {
-    "test": "nyc mocha  --timeout 200000 --exit"
+    "test": "nyc mocha  --timeout 200000 --exit",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls "
   },
   "repository": {
     "type": "git",
