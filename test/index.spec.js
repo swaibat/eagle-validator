@@ -1,7 +1,7 @@
 import { describe, it } from 'mocha';
 import chai from 'chai';
 import chaiHttp from 'chai-http';
-import Check from '../package/index';
+import Check from '../index';
 
 const should = chai.should();
 
