@@ -19,9 +19,12 @@
   "keywords": [
     "js-validator",
     "javascript",
+    "validation",
+    "validation.js",
+    "input-validation",
+    "input-validator",
+    "express-validator",
     "validator",
-    "joi",
-    "@hapi",
     "eagle-validator"
   ],
   "author": "Rumbiiha swaibu",
