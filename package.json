@@ -35,9 +35,7 @@
     "chai-http": "4.3.0",
     "coveralls": "3.0.6",
     "esm": "3.2.25",
-    "express": "4.17.1",
     "mocha": "6.2.0",
-    "nodemon": "1.19.2",
     "nyc": "14.1.1"
   },
   "devDependencies": {
