@@ -17,18 +17,22 @@ export default function validator(req, res, next) {
     new Check({ email: req }).str().req().email(),
   ];
   const invalid = valid.find((e) => e.error);
-  if (invalid) return sendResult(res, 400, invalid.error);
+  if (invalid) return res.status(400).send(status:400, message:invalid.error);
   return next();
 }
 ```
 this will return simplified messages like:
 
-####for required field
+#### for required field
 
 ```firstName  field is required```
+
 ```firstName should be a string```
+
 ```firstName should be greaterthan 2```
+
 ```firstName should be lessthan 19```
+
 ```firstName should be alphabetic```
 
 Basic abbrevations used
