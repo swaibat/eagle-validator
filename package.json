@@ -1,6 +1,6 @@
 {
   "name": "eagle-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A  modern javascript object validation NPM package available on npmjs.com",
   "main": "index.js",
   "nyc": {

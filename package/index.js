@@ -1,11 +1,9 @@
-/* eslint-disable no-useless-escape */
-/* eslint-disable prefer-destructuring */
-/* eslint-disable no-prototype-builtins */
+
 class Validate {
   constructor(data) {
     this.key = Object.entries(data)[0][0];
     this.val = Object.entries(data)[0][1].body[this.key];
-    this.error = '';
+    this.error = undefined;
     this.status = 200;
     this.data = Object.entries(data)[0][1].body;
   }
