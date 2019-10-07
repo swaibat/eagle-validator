@@ -7,7 +7,7 @@ A modern javascript object validation node package available on npmjs.com
 Basic usage
 ------------
 a simple middleware for you
-```
+```js
 import Check from 'eagle-validator';
 
 export default function validator(req, res, next) {
